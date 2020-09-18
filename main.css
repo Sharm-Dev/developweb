@@ -1,0 +1,143 @@
+#navBar {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    height: 5vh;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    padding: 0;    
+}
+
+#navLogo {
+    background-color: rgb(255, 255, 255);
+}
+
+
+a {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-family: 'Oxygen', sans-serif;
+    text-decoration: none;
+    
+    
+}
+
+.active {
+    background-color: #676767;
+}
+
+.hero-image{
+  width: 100vw;
+  height: 100vh;  
+  display: flex;
+  justify-content: center;
+}
+
+.headings{
+    font-family: 'Oxygen', sans-serif;
+    color: rgb(67, 67, 67);
+    font-size: 20px;
+    margin-right: 10%;
+    margin-left: 10%;
+    display: flex;
+
+}
+
+.normalText{
+    font-family: 'Oxygen', sans-serif;
+    color: #000;
+    font-size: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+   
+}
+
+.normalTextEnd{
+    font-family: 'Oxygen', sans-serif;
+    color: #000;
+    font-size: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+   
+}
+
+
+.video{
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    justify-items: center;
+}
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+input[type=submit] {
+    background-color: #000000;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
+input[type=submit]:hover {
+    background-color: #ff4747;
+  }
+  
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  
+@media screen and (max-width: 600px) {}
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+
+footer {
+      display: flex;
+      justify-content: center;
+      padding: 5px;
+      background-color: #000000;
+      color: #fff;
+  }
